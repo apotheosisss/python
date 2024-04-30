@@ -55,28 +55,36 @@ opcionc1= "1"
 opcionc2= "2"
 opcionc3= "3"
 opcionc4= "4"
-pts= 0
-opciona = input("¿Cual de los siguientes paises es conocido por tener píramides? \n 1. Grecia \n 2. España \n 3. Egipto \n 4. Reino Unido \n")
-if opciona == opciona3:
-    print("Respuesta correcta, +5 puntos.")
-    puntaje1 = pts + 5
-else:
-    print("Respuesta incorrecta, la Opción correcta era: Egipto")
-opcionb = input("¿Cual de los siguientes paises es conocido por tener un coliseo? \n 1. Roma \n 2. Italia \n 3. Grecia \n 4. Perú \n")
-if opcionb == opcionb2:
-    print("Respuesta correcta, +5 puntos.")
-    puntaje2 = puntaje1 + 5
-elif opcionb == opcionb1:
-    print("Casi!, Roma es parte de Italia, el país del Coliseo Romano.")
-else:
-    print("Respuesta incorrecta, la opción correcta era: Italia.")
-opcionc = input("¿Que pais es conocido por la gran Torre Eiffel? \n 1. Paris \n 2. Francia \n 3. Alemania \n 4. Noruega \n") 
-if opcionc == opcionc2:
-    print("Respuesta correcta, +5 puntos.")
-    puntaje3= puntaje2 + 5
-elif opcionc == opcionc1:
-    print("Casi! Paris es la capital de Francia, el país de la torre Eiffel.")
-else:
-    print("Respuesta Incorrecta, la opcion correcta era: Francia")
+# Inicializa el puntaje total
+puntaje_total = 0
 
-print(f"Usted tiene {puntaje3}/15 puntos.")
+# Verifica la respuesta de la primera pregunta
+opciona = input("¿Cuál de los siguientes países es conocido por tener pirámides?\n1. Grecia\n2. España\n3. Egipto\n4. Reino Unido\n")
+if opciona == "3":
+    print("Respuesta correcta, +5 puntos.")
+    puntaje_total += 5
+else:
+    print("Respuesta incorrecta, la opción correcta era: Egipto")
+
+# Verifica la respuesta de la segunda pregunta
+opcionb = input("¿Cuál de los siguientes países es conocido por tener un coliseo?\n1. Roma\n2. Italia\n3. Grecia\n4. Perú\n")
+if opcionb == "2":
+    print("Respuesta correcta, +5 puntos.")
+    puntaje_total += 5
+elif opcionb == "1":
+    print("Casi, Roma es parte de Italia, el país del Coliseo Romano.")
+else:
+    print("Respuesta incorrecta, la opción correcta era: Italia")
+
+# Verifica la respuesta de la tercera pregunta
+opcionc = input("¿Qué país es conocido por la gran Torre Eiffel?\n1. París\n2. Francia\n3. Alemania\n4. Noruega\n")
+if opcionc == "2":
+    print("Respuesta correcta, +5 puntos.")
+    puntaje_total += 5
+elif opcionc == "1":
+    print("Casi, París es la capital de Francia, el país de la Torre Eiffel.")
+else:
+    print("Respuesta incorrecta, la opción correcta era: Francia")
+
+# Muestra el puntaje total al usuario
+print(f"Usted tiene {puntaje_total}/15 puntos.")
