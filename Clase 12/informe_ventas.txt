@@ -1,0 +1,29 @@
+Informe de Ventas - Cafetería de Grano
+ Ventas del dia 1
+ Pan Ciabatta: 100000 
+ Pie de limón: 140000 
+ Café: 132000 
+ Té: 72000 
+ Aljafor: 55000 
+ Total de ventas del día Lunes: 499000  
+ Ventas del dia 2
+ Pan Ciabatta: 80000 
+ Pie de limón: 87500 
+ Café: 77000 
+ Té: 44800 
+ Aljafor: 32000 
+ Total de ventas del día Martes: 321300
+ Ventas del día 3
+ Pan Ciabatta: 40000 
+ Pie de limón: 52500 
+ Café: 55000 
+ Té: 28800 
+ Aljafor: 22000
+ Total de ventas del día Miercoles: 198300 
+ Ventas del día 4
+ Pan Ciabatta: 20000 
+ Pie de limón: 28000 
+ Café: 26400 
+ Té: 14400 
+ Aljafor: 11000 
+ Total de ventas del dia Jueves: 88800 
